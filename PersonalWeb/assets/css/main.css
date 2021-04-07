@@ -1791,7 +1791,7 @@ input, select, textarea {
 			}
 
 	a.image:hover {
-		opacity: 0.85;
+		opacity: 0.50;
 	}
 
 /* List */
@@ -2071,18 +2071,18 @@ input, select, textarea {
 		background:#B4EFE8;
 		overflow-x: hidden;
 		padding: 3em 0 3em 0;
+		margin-bottom: 5%;
 	}
 	.port_wrapper{
 		display: flex;
 		margin-top: 5%;
-		margin-bottom: 5%;
 		background-color: rgb(217, 247, 239);
 		justify-content: center;
 	}
 	.image-me-wrapper {
 		size: 25%;
 		border-radius: 30%;
-		margin-left: 10%;
+		margin-left: 5%;
 	}
 	.aboutMe {
 		display: flex;
@@ -2099,9 +2099,10 @@ input, select, textarea {
 		display: flex;
 		width: 45%;
 		flex-direction: column;
-		margin-left: 7%;
-		margin-top: 10px;
 		justify-content: space-around;
+	}
+	.portfolio h2{
+		margin-bottom: 10%;
 	}
 	
 
@@ -2139,7 +2140,8 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
 		background-color: #f08c89; */
 		background-size: 120%;
-		background-repeat: no-repeat
+		background-repeat: no-repeat;
+		
 	}
 
 	.homepage #header-wrapper {
@@ -2642,6 +2644,7 @@ input, select, textarea {
 
 			ul.actions.major {
 				padding-top: 2em;
+				background-color:#B4EFE8;
 			}
 
 		/* Header */
