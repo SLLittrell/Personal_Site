@@ -2132,7 +2132,7 @@ input, select, textarea {
 	#header-wrapper {
 		position: relative;
 		width: auto;
-		padding: 2em 0 2em 0;
+		padding: 1em 0 1em 0;
 		background-image: url("./images/header-bkgrnd\ \(2\).png");
 		/* background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
 		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
@@ -2465,7 +2465,7 @@ input, select, textarea {
 			}
 
 			.homepage #header-wrapper {
-				padding: 8em 0 4em 0;
+				padding: 4em 0 2em 0;
 			}
 
 			#promo-wrapper {
