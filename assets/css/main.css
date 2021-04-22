@@ -2076,7 +2076,7 @@ input, select, textarea {
 	.port_wrapper{
 		display: flex;
 		margin-top: 5%;
-		background-color: rgb(217, 247, 239);
+		background-color: #B4EFE8;
 		justify-content: center;
 	}
 	.image-me-wrapper {
@@ -2093,6 +2093,9 @@ input, select, textarea {
 	}
 	.aboutMe, .portfolio h2 {
 		text-align: center;
+	}
+	.aboutMe p {
+		color: black;
 	}
 
 	.portfolio {
@@ -2155,7 +2158,7 @@ input, select, textarea {
 	}
 
 	.homepage #header-wrapper {
-		padding: 10em 0 6em 0;
+		padding: 4em 0 6em 0;
 		background-size: 100%;
 	}
 
@@ -2171,10 +2174,17 @@ input, select, textarea {
 	#footer-wrapper {
 		-webkit-transform: translate3d(0, 0, 0);
 		position: relative;
+		text-align: left;
 		border-top: solid 1px #c2c7cc;
 		padding: 6em 0 6em 0;
 		background-image: url("images/overlay.png"), url("images/footer.svg");
 		background-size: 128px 128px,				100% 100%;
+	}
+	.email, .linkedin, .github {
+		margin-left: 20px;
+	}
+	#footer-wrapper img{
+		margin-right: 15px;
 	}
 
 /* Header */
@@ -2331,7 +2341,8 @@ input, select, textarea {
 	}
 
 		#hero h2 {
-			color: rgb(76, 187, 172);
+			color: rgb(58, 148, 136)
+			;
 			font-size: 3em;
 			font-weight: bolder;
 		}
@@ -2341,7 +2352,7 @@ input, select, textarea {
 		}
 
 		#hero header > span {
-			color: rgb(76, 187, 172);
+			color: rgb(54, 143, 131);
 		}
 
 		#hero p {
